@@ -1,0 +1,28 @@
+/* Home.css */
+
+.home-container {
+    background-color: #f8f9fa;
+    
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  /* Add more styles as needed to customize your home page */
+  
