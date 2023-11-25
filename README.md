@@ -42,7 +42,21 @@ The project provide a user authentication system that allows users to login, log
    
    1.create Vertual Enviornment
 
+   Navigate to your project directory.( in this project ...\....\backend\authentication)
+   
+   Run the following command to create a virtual environment (replace env with your desired virtual environment name):
+
+   		python -m venv env 
+
    2.activate vertual enviornment
+   
+   On Unix or MacOS:
+
+   		source env/bin/activate
+   On Windows:
+   
+		.\env\Scripts\activate
+
 
    3.Navigate to requirement.txt file then type,
 
