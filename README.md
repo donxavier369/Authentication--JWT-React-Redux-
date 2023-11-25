@@ -29,22 +29,22 @@
 2. Install required dependencies, and start the development server and access the applicatioin in your web browser
    
    => Back-end
-		   1.create Vertual Enviornment
-		   2.activate vertual enviornment
-		   3.Navigate to requirement.txt file then,
-		   4.pip install -r requirement.txt
-		   5.Add Django SECRET_KEY and Database( the name,user and password) in the settings.py file
-   	   6.run the command python -> manage.py makemigrations
-       7.run the command -> python manage.py migrate
-   	   8.run the command -> python manage.py runserver
+	   1.create Vertual Enviornment
+	   2.activate vertual enviornment
+	   3.Navigate to requirement.txt file then,
+	   4.pip install -r requirement.txt
+	   5.Add Django SECRET_KEY and Database( the name,user and password) in the settings.py file
+	   6.run the command python -> manage.py makemigrations
+	   7.run the command -> python manage.py migrate
+	   8.run the command -> python manage.py runserver
 
    => Front-end
-   		1. open a new terminal
-   		2. navigate to project directory(ie, auth_users)
-   		3. run the command -> npm install
-   		4. run the commmand -> npm start
+           1. open a new terminal
+	   2. navigate to project directory(ie, auth_users)
+	   3. run the command -> npm install
+	   4. run the commmand -> npm start
 
-	 ## Usage
+## Usage
 
    User Signup
 			1. Go to the Signup Page
@@ -58,29 +58,31 @@
 			2. Enter your username and password
 			3. Click the Login button
 
-	User Profile Mangement
+User Profile Mangement
 			1. Go to your profile page
 			http://localhost:3000
 			2. Edit your Profile information
 			3. Click the save button
 
-	User Profile image uploading
+User Profile image uploading
 			1. click the Choose image button
 			2. Select the image you want to upload
 			3. Click the submitt image button
 
-	Admin Page
+Admin Page
 			1.Create Admin
 				 Create Superuser in backend django termainal
 						for that,
 								type "python manage.py createsuperuser" in the terminal
 								Enter the credentials
 								click enter
+	
 			2. Admin Login
 				 Go to the admin login
 						http://localhost:3000/admin
 				 Enter the admin name and password
 				 Click the Login
+     
 			3. Admin Dashboard
 					Go to admin dashboard
 					http://localhost:3000/admin/dashboard
