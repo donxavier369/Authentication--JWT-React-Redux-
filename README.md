@@ -107,22 +107,25 @@ Admin Page
 
 			1.Create Admin
 				 Create Superuser in backend django termainal
-						for that,
-								type "python manage.py createsuperuser" in the terminal
-								Enter the credentials
-								click enter
+				 for that,
+					type "python manage.py createsuperuser" in the terminal
+					Enter the credentials
+					click enter
 	
 			2. Admin Login
 				 Go to the admin login
-						http://localhost:3000/admin
+				 http://localhost:3000/admin
+     
 				 Enter the admin name and password
+     
 				 Click the Login
      
 			3. Admin Dashboard
-					Go to admin dashboard
-					http://localhost:3000/admin/dashboard
-					You can now manage users on the admin page
-   					
+				Go to admin dashboard
+				http://localhost:3000/admin/dashboard
+    
+				You can now manage users on the admin page
+				
 
         
 
