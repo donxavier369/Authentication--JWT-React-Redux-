@@ -1,6 +1,5 @@
 # Authentication--JWT-React-Redux-
 
-##Overview  
 
 The project provide a user authentication system that allows users to login, logout, manage their profile information, and upload their profile image. Its also include an admin page for managing users
 
